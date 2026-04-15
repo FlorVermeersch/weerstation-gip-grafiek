@@ -2,29 +2,53 @@
 <html>
 <head>
   <title>Weerstation</title>
+
+  <style>
+    body {
+      text-align: center;
+      font-family: Arial;
+      background: white;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+
+    iframe {
+      max-width: 90%;
+    }
+  </style>
+
 </head>
 
 <body>
 
 <h1>Live Weerstation</h1>
 
-<iframe width="450" height="260" style="border: 1px solid #cccccc;"
-src="https://thingspeak.com/channels/3293235/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+<div class="container">
 
 <iframe width="450" height="260" style="border: 1px solid #cccccc;"
-src="https://thingspeak.com/channels/3293235/charts/2?bgcolor=%23ffffff&color=%2300aa00&dynamic=true&results=60&type=line&update=15"></iframe>
+src="https://thingspeak.com/channels/3293235/charts/1?bgcolor=%23ffffff&color=%23ff0000&dynamic=true&results=60&type=line&update=15"></iframe>
 
 <iframe width="450" height="260" style="border: 1px solid #cccccc;"
-src="https://thingspeak.com/channels/3293235/charts/3?bgcolor=%23ffffff&color=%230000ff&dynamic=true&results=60&type=line&update=15"></iframe>
+src="https://thingspeak.com/channels/3293235/charts/2?bgcolor=%23ffffff&color=%23ff0000&dynamic=true&results=60&type=line&update=15"></iframe>
 
 <iframe width="450" height="260" style="border: 1px solid #cccccc;"
-src="https://thingspeak.com/channels/3293235/charts/4?bgcolor=%23ffffff&color=%23ff9900&dynamic=true&results=60&type=line&update=15"></iframe>
+src="https://thingspeak.com/channels/3293235/charts/3?bgcolor=%23ffffff&color=%23ff0000&dynamic=true&results=60&type=line&update=15"></iframe>
 
 <iframe width="450" height="260" style="border: 1px solid #cccccc;"
-src="https://thingspeak.com/channels/3293235/charts/5?bgcolor=%23ffffff&color=%239900cc&dynamic=true&results=60&type=line&update=15"></iframe>
+src="https://thingspeak.com/channels/3293235/charts/4?bgcolor=%23ffffff&color=%23ff0000&dynamic=true&results=60&type=line&update=15"></iframe>
 
 <iframe width="450" height="260" style="border: 1px solid #cccccc;"
-src="https://thingspeak.com/channels/3293235/charts/6?bgcolor=%23ffffff&color=%23000000&dynamic=true&results=60&type=line&update=15"></iframe>
+src="https://thingspeak.com/channels/3293235/charts/5?bgcolor=%23ffffff&color=%23ff0000&dynamic=true&results=60&type=line&update=15"></iframe>
+
+<iframe width="450" height="260" style="border: 1px solid #cccccc;"
+src="https://thingspeak.com/channels/3293235/charts/6?bgcolor=%23ffffff&color=%23ff0000&dynamic=true&results=60&type=line&update=15"></iframe>
+
+</div>
 
 </body>
 </html>
